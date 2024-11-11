@@ -165,13 +165,13 @@ Teleport.setup = function()
                                      {nargs = "*"})
 
     -- set keymaps
-    -- vim.keymap.set('n', 'qq', function() Teleport.reset_state() end,
-    -- {noremap = true})
+    vim.keymap.set('n', 'qq', function() Teleport.reset_state() end,
+                   {noremap = true})
 
-    -- vim.keymap.set("n", "t", function() Teleport.init('forwards') end,
-    -- {noremap = true})
-    -- vim.keymap.set("n", "T", function() Teleport.init('backwards') end,
-    -- {noremap = true})
+    vim.keymap.set("n", "t", function() Teleport.init('forwards') end,
+                   {noremap = false})
+    vim.keymap.set("n", "T", function() Teleport.init('backwards') end,
+                   {noremap = true})
 end
 
 return {setup = Teleport.setup}
