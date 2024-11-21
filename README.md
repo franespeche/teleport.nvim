@@ -16,7 +16,7 @@ Same thing could be accomplished backwards by pressing `T{char}`.
 (pressing `qq` will turn the highlights off)
 
 # Usage:
-1. In this v0, you'll just need install the plugin and then call the setup function. Currently the keymaps are set to `t`, `T` and `qq` by default
+1. In this v0, you'll just need to install the plugin and then call the setup function. Currently the keymaps are set to `t`, `T` and `qq` by default
 
 ```lua
 require("teleport"):setup()
